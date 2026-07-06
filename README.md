@@ -31,6 +31,46 @@ China Litigation Rehearsal is a Codex Skill for PRC civil/commercial litigation 
 - 庭前实战手册：把前述内容整理成开庭当天可直接使用的工作手册。
 - 法律依据核验：只提供检索方向，不把未经核验的条号、案例当作确定依据。
 
+## 方法论与资料来源
+
+本 Skill 不是一个“法条答案库”，而是一个庭前预演工作流。它把中国大陆民商事诉讼中的请求权基础、要件事实、举证责任、程序闸门和庭审表达训练组织成可重复使用的步骤。
+
+核心方法路径：
+
+```text
+固定诉求 → 识别法律关系 → 拆解构成要件 → 整理争点 → 分配举证责任
+→ 检查证据链 → 预判对方攻击 → 模拟法官追问 → 倒推败诉风险 → 形成庭前手册
+```
+
+主要方法论和资料对应关系：
+
+| 方法/资料 | 对应文件 | 在 Skill 中的作用 |
+| --- | --- | --- |
+| 邹碧华《要件审判九步法》 | [`references/nine-step-method.md`](references/nine-step-method.md) | 法官追问、败诉风险排查、要件归入分析的核心框架 |
+| 段厚省《论民事案件裁判方法》 | [`references/duan-housheng-adjudication-methods.md`](references/duan-housheng-adjudication-methods.md) | 支撑默认采用“先找法、后查事实”的裁判思维路径 |
+| 请求权基础与要件事实分析 | [`references/claim-elements.md`](references/claim-elements.md) | 将诉求、法律关系、构成要件、事实和证据放到同一张表里检查 |
+| 争点整理与庭审议程 | [`references/issue-map.md`](references/issue-map.md) | 区分事实争点、法律争点、程序争点和证明压力 |
+| 证据矩阵与证明责任 | [`references/evidence-matrix.md`](references/evidence-matrix.md) | 检查待证事实、举证责任、证据强弱和补强动作 |
+| 中国大陆民事程序语境 | [`references/civil-procedure-framework.md`](references/civil-procedure-framework.md) | 锁定民事庭审阶段、法官职权、证据规则和中文程序术语 |
+| 程序风险筛查 | [`references/procedure-gate.md`](references/procedure-gate.md) | 处理管辖、仲裁条款、诉讼时效、保全、鉴定、送达等前置风险 |
+| 法律依据核验规则 | [`references/legal-authority-verification.md`](references/legal-authority-verification.md) | 规定法条、司法解释、案例和地方规则的核验层级 |
+| 法律检索索引 | [`references/key-legal-provisions.md`](references/key-legal-provisions.md) | 仅提示常见检索主题，不作为可直接引用的权威依据 |
+| 推荐阅读与参考总目 | [`references/recommended-readings.md`](references/recommended-readings.md)、[`references/reference-bibliography.md`](references/reference-bibliography.md) | 展示方法论、程序法、证据法、裁判方法和诉讼实务的背景资料 |
+
+法律依据处理原则：
+
+- 仓库内 reference 文件只作为庭前预演和检索提示，不替代律师法律研究。
+- 未经核验时，Skill 应使用 `需检索核验`、`需人工核验`、`待核验依据` 等提示。
+- 对外文件、代理意见、庭审提纲或客户沟通中使用法条、案例、地方规则前，应由律师在官方来源核验。
+- 类案和裁判文书主要用于理解裁判思路和事实区分，不应被表述为当然适用的强制规则。
+
+建议核验入口：
+
+- 国家法律法规数据库：<https://flk.npc.gov.cn/>
+- 最高人民法院官网：<https://www.court.gov.cn/>
+- 人民法院案例库：<https://rmfyalk.court.gov.cn/>
+- 中国裁判文书网：<https://wenshu.court.gov.cn/>
+
 ## 快速开始
 
 安装后，在 Codex 中输入：
